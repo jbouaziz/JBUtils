@@ -18,7 +18,6 @@
 		E34DD9DC18BBAC6D00FFF13E /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9D918BBAC6D00FFF13E /* UIView+EasyFrame.m */; };
 		E34DD9DD18BBAC6D00FFF13E /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9DB18BBAC6D00FFF13E /* UIView+Utils.m */; };
 		E34DD9DF18BBAD3E00FFF13E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E34DD9DE18BBAD3E00FFF13E /* README.md */; };
-		E34DD9E118BBAE8A00FFF13E /* JBUtils.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E34DD9E018BBAE8A00FFF13E /* JBUtils.podspec */; };
 		E34DD9E318BBB40600FFF13E /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = E34DD9E218BBB40600FFF13E /* LICENCE */; };
 		E355464B18B3D60C0099A772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E355464A18B3D60C0099A772 /* Foundation.framework */; };
 		E355464D18B3D60C0099A772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E355464C18B3D60C0099A772 /* CoreGraphics.framework */; };
@@ -66,7 +65,6 @@
 		E34DD9DA18BBAC6D00FFF13E /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "Categories/UIView+Utils.h"; sourceTree = "<group>"; };
 		E34DD9DB18BBAC6D00FFF13E /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "Categories/UIView+Utils.m"; sourceTree = "<group>"; };
 		E34DD9DE18BBAD3E00FFF13E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		E34DD9E018BBAE8A00FFF13E /* JBUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JBUtils.podspec; sourceTree = "<group>"; };
 		E34DD9E218BBB40600FFF13E /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		E355464718B3D60C0099A772 /* JBUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E355464A18B3D60C0099A772 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,7 +113,6 @@
 			children = (
 				E34DD9E218BBB40600FFF13E /* LICENCE */,
 				E34DD9DE18BBAD3E00FFF13E /* README.md */,
-				E34DD9E018BBAE8A00FFF13E /* JBUtils.podspec */,
 				E355464918B3D60C0099A772 /* Frameworks */,
 				E355465018B3D60C0099A772 /* JBUtils */,
 				E355466918B3D60C0099A772 /* JBUtilsTests */,
@@ -350,7 +347,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34DD9E118BBAE8A00FFF13E /* JBUtils.podspec in Resources */,
 				E34DD9E318BBB40600FFF13E /* LICENCE in Resources */,
 				E34DD9DF18BBAD3E00FFF13E /* README.md in Resources */,
 				E355465518B3D60C0099A772 /* InfoPlist.strings in Resources */,
