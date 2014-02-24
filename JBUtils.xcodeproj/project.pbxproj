@@ -14,9 +14,11 @@
 		E34DD9CE18BBAC5000FFF13E /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9CD18BBAC5000FFF13E /* UIColor+Utils.m */; };
 		E34DD9D118BBAC5700FFF13E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9D018BBAC5700FFF13E /* UIImage+ImageEffects.m */; };
 		E34DD9D418BBAC5F00FFF13E /* UIScrollView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9D318BBAC5F00FFF13E /* UIScrollView+EasyFrame.m */; };
-		E34DD9D718BBAC6500FFF13E /* UITextField+JBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9D618BBAC6500FFF13E /* UITextField+JBUtils.m */; };
+		E34DD9D718BBAC6500FFF13E /* UITextField+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9D618BBAC6500FFF13E /* UITextField+Utils.m */; };
 		E34DD9DC18BBAC6D00FFF13E /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9D918BBAC6D00FFF13E /* UIView+EasyFrame.m */; };
 		E34DD9DD18BBAC6D00FFF13E /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E34DD9DB18BBAC6D00FFF13E /* UIView+Utils.m */; };
+		E34DD9DF18BBAD3E00FFF13E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E34DD9DE18BBAD3E00FFF13E /* README.md */; };
+		E34DD9E118BBAE8A00FFF13E /* JBUtils.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E34DD9E018BBAE8A00FFF13E /* JBUtils.podspec */; };
 		E355464B18B3D60C0099A772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E355464A18B3D60C0099A772 /* Foundation.framework */; };
 		E355464D18B3D60C0099A772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E355464C18B3D60C0099A772 /* CoreGraphics.framework */; };
 		E355464F18B3D60C0099A772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E355464E18B3D60C0099A772 /* UIKit.framework */; };
@@ -56,12 +58,14 @@
 		E34DD9D018BBAC5700FFF13E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Categories/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		E34DD9D218BBAC5F00FFF13E /* UIScrollView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EasyFrame.h"; path = "Categories/UIScrollView+EasyFrame.h"; sourceTree = "<group>"; };
 		E34DD9D318BBAC5F00FFF13E /* UIScrollView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EasyFrame.m"; path = "Categories/UIScrollView+EasyFrame.m"; sourceTree = "<group>"; };
-		E34DD9D518BBAC6500FFF13E /* UITextField+JBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+JBUtils.h"; path = "Categories/UITextField+JBUtils.h"; sourceTree = "<group>"; };
-		E34DD9D618BBAC6500FFF13E /* UITextField+JBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JBUtils.m"; path = "Categories/UITextField+JBUtils.m"; sourceTree = "<group>"; };
+		E34DD9D518BBAC6500FFF13E /* UITextField+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+Utils.h"; path = "Categories/UITextField+Utils.h"; sourceTree = "<group>"; };
+		E34DD9D618BBAC6500FFF13E /* UITextField+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Utils.m"; path = "Categories/UITextField+Utils.m"; sourceTree = "<group>"; };
 		E34DD9D818BBAC6D00FFF13E /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+EasyFrame.h"; path = "Categories/UIView+EasyFrame.h"; sourceTree = "<group>"; };
 		E34DD9D918BBAC6D00FFF13E /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+EasyFrame.m"; path = "Categories/UIView+EasyFrame.m"; sourceTree = "<group>"; };
 		E34DD9DA18BBAC6D00FFF13E /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "Categories/UIView+Utils.h"; sourceTree = "<group>"; };
 		E34DD9DB18BBAC6D00FFF13E /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "Categories/UIView+Utils.m"; sourceTree = "<group>"; };
+		E34DD9DE18BBAD3E00FFF13E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E34DD9E018BBAE8A00FFF13E /* JBUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JBUtils.podspec; sourceTree = "<group>"; };
 		E355464718B3D60C0099A772 /* JBUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E355464A18B3D60C0099A772 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E355464C18B3D60C0099A772 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,10 +111,12 @@
 		E355463E18B3D60C0099A772 = {
 			isa = PBXGroup;
 			children = (
+				E34DD9E018BBAE8A00FFF13E /* JBUtils.podspec */,
 				E355465018B3D60C0099A772 /* JBUtils */,
 				E355466918B3D60C0099A772 /* JBUtilsTests */,
 				E355464918B3D60C0099A772 /* Frameworks */,
 				E355464818B3D60C0099A772 /* Products */,
+				E34DD9DE18BBAD3E00FFF13E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,8 +210,8 @@
 		E355469918B3E0D30099A772 /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
-				E34DD9D518BBAC6500FFF13E /* UITextField+JBUtils.h */,
-				E34DD9D618BBAC6500FFF13E /* UITextField+JBUtils.m */,
+				E34DD9D518BBAC6500FFF13E /* UITextField+Utils.h */,
+				E34DD9D618BBAC6500FFF13E /* UITextField+Utils.m */,
 			);
 			name = UITextField;
 			sourceTree = "<group>";
@@ -341,6 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34DD9E118BBAE8A00FFF13E /* JBUtils.podspec in Resources */,
+				E34DD9DF18BBAD3E00FFF13E /* README.md in Resources */,
 				E355465518B3D60C0099A772 /* InfoPlist.strings in Resources */,
 				E355465D18B3D60C0099A772 /* Images.xcassets in Resources */,
 			);
@@ -372,7 +380,7 @@
 				E34DD9C818BBAC3D00FFF13E /* UIButton+Utils.m in Sources */,
 				E34DD9CB18BBAC4A00FFF13E /* UICollectionView+ReloadItemsAnimated.m in Sources */,
 				E34DD9C518BBAC2F00FFF13E /* NSString+Utils.m in Sources */,
-				E34DD9D718BBAC6500FFF13E /* UITextField+JBUtils.m in Sources */,
+				E34DD9D718BBAC6500FFF13E /* UITextField+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

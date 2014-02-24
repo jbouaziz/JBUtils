@@ -1,5 +1,5 @@
 //
-//  UITextField+JBUtils.h
+//  UITextField+Utils.h
 //  JBUtils
 //
 //  Created by Jonathan BOUAZIZ on 18/02/2014.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (JBUtils)
+@interface UITextField (Utils)
 
 
 /**

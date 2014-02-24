@@ -1,14 +1,14 @@
 //
-//  UITextField+JBUtils.m
+//  UITextField+Utils.m
 //  JBUtils
 //
 //  Created by Jonathan BOUAZIZ on 18/02/2014.
 //  Copyright (c) 2014 jbouaziz. All rights reserved.
 //
 
-#import "UITextField+JBUtils.h"
+#import "UITextField+Utils.h"
 
-@implementation UITextField (JBUtils)
+@implementation UITextField (Utils)
 
 - (NSRange)selectedRange {
     
