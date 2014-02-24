@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Emojize.h"
+#import "NSString+Utils.h"
 
 @implementation NSString (Emojize)
 
